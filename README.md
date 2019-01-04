@@ -22,10 +22,10 @@ CREATE DATABASE message_app;
 tables :
 CREATE TABLE info_db
 (
-  id              INT unsigned NOT NULL AUTO_INCREMENT, \n
-  name            VARCHAR(150) NOT NULL,\n
-  last_name       VARCHAR(150) NOT NULL,\n
-  ip_address      VARCHAR(150) NOT NULL,\n
+  id              INT unsigned NOT NULL AUTO_INCREMENT,
+  name            VARCHAR(150) NOT NULL,
+  last_name       VARCHAR(150) NOT NULL,
+  ip_address      VARCHAR(150) NOT NULL,
   PRIMARY KEY     (id)\n
 );
 
