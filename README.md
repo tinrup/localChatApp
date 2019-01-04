@@ -11,7 +11,7 @@ When creating database on Centos7 (MariaDb), database must have a host called '%
 ( CREATE USER 'name'@'%' IDENTIFIED BY 'somePassword';
   GRANT ALL PRIVILEGES ON *.* TO 'name'@'%'; )
 
-Connecting to Centos database can cause some problems, you need to disable the server firewall first. 
+Connecting to Centos database can cause some problems, disable the server firewall first. 
 ( systemctl stop firewalld )
 
 _______________________________________________________
