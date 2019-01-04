@@ -23,10 +23,11 @@ tables :
 CREATE TABLE info_db
 (
   id              INT unsigned NOT NULL AUTO_INCREMENT,
+  
   name            VARCHAR(150) NOT NULL,
   last_name       VARCHAR(150) NOT NULL,
   ip_address      VARCHAR(150) NOT NULL,
-  PRIMARY KEY     (id)\n
+  PRIMARY KEY     (id)
 );
 
 CREATE TABLE message_box
